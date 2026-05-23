@@ -5,11 +5,10 @@ def guessing_game():
     base = random.randint(2, 16)
 
 
-    print(f'answer is:{answer}---{base}')
+
     c = 0
     while c < 3:
         user_answer = input(f"Guess the number (in base {base}): ")
-
         try:
             guess = int(user_answer, base)
         except ValueError:

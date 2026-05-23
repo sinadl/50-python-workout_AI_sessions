@@ -8,7 +8,6 @@ def word_guessing_game():
         filtered_words = [w for w in all_words if 2 <= len(w) <= 5]
 
     answer = random.choice(filtered_words)
-    print(answer)
     while True:
         guess = input(f"Guess the word(only 2 to 5 letters words): ")
 
