@@ -31,6 +31,7 @@ def mysum_avg(*args):
     sumv = sumv / len(args)
     return sumv
 
+
 print(mysum_avg(4,5,2))
 
 # beyond 3
@@ -41,5 +42,6 @@ def mysum_minmax(*args):
     max_len = max(len_minmax)
     avg_len = sum(len_minmax)/len(args)
     return min_len,max_len,avg_len
+
 
 print(mysum_minmax('book','apple','heisenberg'))
