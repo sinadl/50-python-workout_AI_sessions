@@ -10,7 +10,7 @@ def url_encode_string(text):
             
     return encoded_result
 
-# Test Case
+
 sample_input = "Hello World! @2026"
 encoded_output = url_encode_string(sample_input)
 
