@@ -1,3 +1,5 @@
+import io
+
 def largest_word(file_obj):
     largest = ""
     
@@ -12,3 +14,8 @@ def largest_word(file_obj):
 # test case
 with open(f'/Users/sina/Desktop/mentoring_data/50-python-workout_AI_sessions/6/textfile.txt','r') as f:
     print(largest_word(f))
+    
+
+
+fake_file = io.StringIO("This is a fake file created to test smth.")
+print(largest_word(fake_file))
