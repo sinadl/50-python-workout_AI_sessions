@@ -1,0 +1,5 @@
+This is a simple example file
+It has several words
+hi i am sina 
+hello world
+sometimes it's better to not speak
