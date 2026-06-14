@@ -1,0 +1,6 @@
+root	0
+daemon	1
+bin	2
+sina	1000
+john	1001
+mary	1002
